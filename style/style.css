@@ -1,0 +1,47 @@
+@import url('https://fonts.googleapis.com/css?family=Antic|Lekton|Montserrat+Subrayada&display=swap');
+body{
+    margin: 0;
+    padding: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    background: linear-gradient(to right, #fc466b, #3f5efb);
+}
+.add_tag{
+    font-family:  'Montserrat Subrayada', sans-serif;
+}
+input[type="text"]{
+    font-family: 'Antic', sans-serif;
+}
+.icon-container{
+    font-size: 1.5em;
+}
+.card{
+    margin-top: 5px;
+    font-family: 'Lekton', sans-serif;
+    background-color: aliceblue;
+}
+#add_button{
+    border: none;
+}
+@media only screen and (min-width: 768px){      /*if screen size is bigger than screen < 768px*/
+    #form-container{
+        padding-left: 10%;    
+    }
+    .card{
+        width: 35rem;
+    }
+}
+@media only screen and (max-width: 768px){          /*if screen size is less than 768px*/
+    #add_button{
+        margin-top: 2px;
+        margin-left: 45%;
+    }
+}
+
+/*
+font-family: 'Montserrat Subrayada', sans-serif;
+font-family: 'Antic', sans-serif;
+font-family: 'Lekton', sans-serif;
+*/
