@@ -1,3 +1,4 @@
+
 function change_background(){
     var backgrounds = ['1.png','2.png','3.png','4.jpg','5.png'];
     var random_number = Math.floor(Math.random()*5);
@@ -8,11 +9,12 @@ function change_background(){
 }
 change_background();
 $(document).ready(function(){
-    $('#chat-container').hide();
+    $('#chat-container').hide();                /*By default, enter task panel is hidden */
     $('#toggle').click(function(){
-        $('#chat-container').slideToggle();
+        $('#chat-container').slideToggle();             /*toggle the add task panel */
     });
     $("#text-field").focus(function(){
         $("#chat-container").css("opacity",'1');
     });
 });
+

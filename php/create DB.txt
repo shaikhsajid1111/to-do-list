@@ -1,0 +1,15 @@
+--create database
+create database `to-do`
+
+--create table `tasks`
+CREATE TABLE `tasks` (
+ `id` int(11) NOT NULL AUTO_INCREMENT,
+ `task` varchar(255) NOT NULL,
+ `date` datetime NOT NULL,
+ PRIMARY KEY (`id`)
+)
+--`tasks` table structure
+Field  |    Type         | NULL | Key   | Default | Extra   
+id     |    int(11)      |  NO  | PRI   |  NULL   | aut_increment
+task   |    varchar(255) |  NO  |       |  NULL   |
+date   |    datetime     |  NO  |       |  NULL   |

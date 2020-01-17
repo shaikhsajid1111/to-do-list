@@ -8,9 +8,6 @@ body{
     justify-content: center;
     min-height: 100vh;
     /*background: linear-gradient(to right, #fc466b, #3f5efb);*/
-    background-image: url('https://images.alphacoders.com/699/thumb-1920-699287.jpg');
-    background-image: url('https://images4.alphacoders.com/973/thumb-1920-973967.jpg');
-    background-image: url('https://images5.alphacoders.com/714/thumb-1920-714548.png');
     background-position: center;
     background-size: cover;
 }
@@ -28,6 +25,7 @@ input[type="text"]{
     font-family: 'Maven Pro', sans-serif;
     background-color: aliceblue;
     opacity: .8;
+    
 }
 /*chat UI*/
 #chat-container{
@@ -56,8 +54,7 @@ input[type="text"]{
     }
     .card{
         width: 35rem;
-    }
-    
+    }  
 }
 @keyframes rotate{
     to{
@@ -65,6 +62,8 @@ input[type="text"]{
     }
 }
 /*
+Font family imported from Google Fonts
+
 font-family: 'Maven Pro', sans-serif;
 font-family: 'Nanum Gothic', sans-serif;
 font-family: 'Nunito', sans-serif;
